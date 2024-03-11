@@ -1,0 +1,92 @@
+algoritmo "calculadora"
+var
+   Nome: caractere
+   operacao: inteiro
+   N1, N2, S1: real
+   continue: inteiro
+
+inicio
+      Escreval ("[=-=]----------------[=-=]")
+      Escreval ("                          ")
+      Escreval ("    B E M - V I N D O     ")
+      Escreval ("                          ")
+      Escreval ("[=-=]----------------[=-=]")
+      Escreval ("[=-=]----------------[=-=]")
+      Escreval ("Tudo bem? Qual o seu nome?")
+      Escreval ("[=-=]----------------[=-=]")
+      Escreva (">>>")
+      Leia (nome)
+      Escreval ("[=-=]----------------[=-=]")
+      Escreval ("Muito prazer ", nome)
+      Escreval ("Sou uma simples calculadora")
+      Escreval ("Vamos comecar?")
+      Escreval ("1=Sim / 2=Nao")
+      Escreval ("[=-=]----------------[=-=]")
+      Escreva (">>>")
+      Leia (continue)
+      se (continue = 2 ) entao
+      Escreval ("[=-=]----------------[=-=]")
+      Escreval ("   ")
+      Escreval ("  O B R I G A D O  P O R")
+      Escreval ("  U S A R  A  C A L C 1.0")
+      Escreval ("     B Y : T M 1 9 _ ")
+      Escreval ("  ")
+      Escreval ("[=-=]----------------[=-=]")
+         fimalgoritmo
+      senao
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("Qual a operacao que voce deseja?")
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("       O P C O E S")
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("     ( 1 ) - ADICAO")
+           Escreval ("    ( 2 ) - SUBTRACAO")
+           Escreval ("  ( 3 ) - MULTIPLICACAO")
+           Escreval ("     ( 4 ) - DIVISAO")
+           Escreval ("[=-=]----------------[=-=]")
+           Escreva (">>>")
+           Leia (operacao)
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("Operacao selecionada como -> ", operacao)
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("Agora vamos escolher os numeros")
+           Escreval ("Me informe o primeiro numero")
+           Escreval ("[=-=]----------------[=-=]")
+           Escreva (">>>")
+           Leia (N1)
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("Primeiro numero selecionado -> ", N1)
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("Vamos  para o segundo numero")
+           Escreval ("Me informe o segundo numero")
+           Escreval ("[=-=]----------------[=-=]")
+           Escreva (">>>")
+           Leia  (N2)
+           Escreval ("[=-=]----------------[=-=]")
+           Escreval ("Segundo numero selecionado -> ", N2)
+           Se (operacao = 1) entao { 1 = soma }
+              S1 <- N1 + N2
+           Senao
+                Se (operacao = 2) entao { 2 = subtração }
+                   S1 <- N1 - N2
+                Senao
+                     Se (operacao = 3) entao { 3 = multiplicação }
+                        S1 <- N1 * N2
+                     Senao
+                        Se (operacao = 4) entao { 4 = divisão }
+                           S1 <- N1 / N2
+      Fimse
+      Fimse
+      Fimse
+      Fimse
+      Fimse
+      Escreval ("[=-=]----------------[=-=]")
+      Escreval ("O resultado da operação de ", N1, " e ", N2," e = ",S1)
+      Escreval ("[=-=]----------------[=-=]")
+      Escreval ("   ")
+      Escreval ("  O B R I G A D O  P O R")
+      Escreval ("  U S A R  A  C A L C 1.0")
+      Escreval ("     B Y : T M 1 9 _ ")
+      Escreval ("  ")
+      Escreval ("[=-=]----------------[=-=]")
+fimalgoritmo
